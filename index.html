@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="logo">
+                    <img src="" alt="logo">
+                </div>
+                <div class="business">主要业务内容</div>
+                <div class="concat"><a href="">联系方式</a></div>
+                <div class="slogan">标语1</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="description">公司简介</div>
+                <div class="concat"><a href="">联系方式</a></div>
+                <div class="slogan">标语2</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="case">
+                    <ul>
+                        <Li><img src="" alt=""></Li>
+                        <Li><img src="" alt=""></Li>
+                        <Li><img src="" alt=""></Li>
+                        <Li><img src="" alt=""></Li>
+                    </ul>
+                </div>
+                <div class="slogan">标语3</div>
+            </div>
+            <div class="swiper-slide">
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="concat-methods">
+                    <div class="title">联系方式</div>
+                    <ul>
+                        <li><span class="type">联系电话</span><span class="name">12345346</span></li>
+                        <li><span class="type">邮箱</span><span class="name">4342@xx.com</span></li>
+                        <li><span class="type">QQ</span><span class="name">21341352</span></li>
+                        <li><span class="type">微信</span><span class="name">weq432s43</span></li>
+                    </ul>
+                </div>
+                <div class="copyright">版权所有 © 1999-2017 Copyright © 1999-2017 300.cn All Rights Reserved  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系电话：222222&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:0;">关注微博</a></div>
+            </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="ewm">
+        <img src="./img/ewm/1499210489.png" alt="" width="100" height="100">
+    </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/index.js"></script>
+
+    <script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            direction: 'vertical',
+            loop: false,
+
+            // 如果需要分页器
+            pagination: '.swiper-pagination',
+            paginationClickable :true
+        });
+    </script>
+</body>
+</html>
